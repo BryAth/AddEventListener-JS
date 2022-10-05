@@ -38,9 +38,12 @@ window.addEventListener("scroll",() => {
         end.style.opacity = 1;
         end.style.transform = "translateX(0px)"
         
-        
     }
-
+    else{
+        end.style.opacity = 0;
+        end.style.transform = "translateX(400px)"
+    }
+    
 })
 
 end.addEventListener("click",() => {
